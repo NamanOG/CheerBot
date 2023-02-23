@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chatbot Interface</title>
+        <link rel="stylesheet" href="css/CB.css" />
+        <link rel="icon" type="image/png" href="images/cc.png"/>
+    </head>
+    <body>
+        <div class="glass">
+            <h1>I am CheerBot</h1>
+            <h2>👾 Your Virtual Friend 👾</h2>
+            <div class="input">
+                <input type="text" id="userBox" onkeydown="if(event.keyCode == 13){ talk()}" placeholder="Chat here"/>
+            </div>
+            <p id="chatLog">Response Appering Hear</p>
+        </div>
+            <a href="Main.html" class="btn btn-primary btn-lg">⬅ Back</a>
+            <script src="js/app.js"></script>
+    </body>
+</html>

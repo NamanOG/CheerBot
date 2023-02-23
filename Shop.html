@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="IE-edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, intial-scale=1.0" name="viewport">
+<title>Compute & Compile</title>
+<!--stylesheet-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--fav-icon----->
+<link rel="shortcut icon" href="images/ccnew.png"/>
+	<!--style----->
+	<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+		body{
+			font-family:poppins;
+		}
+	</style>
+	
+</head>
+<body>
+    <nav> 
+        <!--social-links-and-phone-number----------------->
+ <div class="social-call">
+     <!--social-links--->
+     <div class="social">
+         <a href="https://www.facebook.com/Compute.Compile"><i class="fab fa-facebook-f"></i></a>
+         <a href="https://api.whatsapp.com/send/?phone=9827146565&text&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i></a>
+         <a href="#"><i class="fab fa-youtube"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+     </div>
+     <!--phone-number------>
+     <div class="phone">
+         <span>Call: <a href="tel:9827146565"style="color:black">+91 9827146565</a></span>
+     </div>
+ </div>
+ <!--menu-bar----------------------------------------->
+ <div class="navigation">
+     <!--logo------------>
+     <a href="Z:\Website\Main.html" class="logo"><img src="images/cc.png" style="object-position: top; object-position: left; width:60px; height:60px; border: solid 1px rgb(255, 255, 255)"/></a>
+     <!--menu-icon------------->
+     <div class="toggle"></div>
+     <!--menu----------------->
+     <ul class="menu">
+         <li><a href="Z:\Website\Main.html">Home</a></li>
+         <li  class="shop"><a href="#" >Shop</a></li>
+         <li><a href="#">Pos Solutions</a>
+             <!--lable---->
+             <span class="sale-lable">SALE</span>
+         </li>
+         <li><a href="#">Computer</a></li>
+         <li><a href="#">Accessories</a></li>
+     </ul>
+     <!--right-menu----------->
+     <div class="right-menu">
+        <!--search-->
+         <a href="javascript:void(0);" class="search">
+             <i class="fas fa-search"></i>
+         </a>
+         <a href="javascript:void(0);" class="user">
+             <i class="far fa-user"></i>
+         </a>
+         <a href="#">
+             <i class="fas fa-shopping-cart">
+                 <span class="num-cart-product">0</span>
+             </i>
+         </a>
+     </div>
+     </div>
+ </nav>
+  <!--using FontAwesome--------------->
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+
+<!--search-bar----------------------------------->
+<div class="search-bar">
+    
+    <!--search-input------->
+    <div class="search-input">
+    <input type="text" placeholder="Search For Product" name="search" />
+    <!--cancel-btn--->
+    <a href="javascript:void(0);" class="search-cancel">
+        <i class="fas fa-times"></i>
+    </a>
+
+</div>
+</div>
+
+<!--JQuery---------->
+<script src="js/JQuery.js"></script>
+
+<!--Script------->
+<script type="text/javascript">
+
+/*-----For Search Bar-----------------------------*/
+$(document).on('click','.search',function(){
+$('.search-bar').addClass('search-bar-active')
+});
+
+$(document).on('click','.search-cancel',function(){
+$('.search-bar').removeClass('search-bar-active')
+});
+
+</script>
+
+
+</body>
+</html>
